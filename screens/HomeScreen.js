@@ -1,12 +1,13 @@
 import { View, Text, SafeAreaView } from 'react-native'
 import React from 'react'
+import FoodCard from '../components/FoodCard'
 
 const HomeScreen = () => {
 
     return (
         <SafeAreaView>
             <View>
-                <Text>Home Page</Text>
+                <FoodCard />
             </View>
         </SafeAreaView>
     )
