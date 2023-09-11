@@ -4,7 +4,9 @@ import React from 'react'
 const FoodCard = () => {
     return (
         <View>
-            <Text>FoodCard</Text>
+            <Text>
+                Food, Desc, qty, favorite, alert
+            </Text>
         </View>
     )
 }
